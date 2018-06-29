@@ -1,0 +1,133 @@
+/* ESTILOS DETALLES USUARIO */
+
+#perfilUsuario {
+    display: flex;
+    justify-content: space-between;
+}
+
+#datos-usuario {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#datos-usuario {
+    width: 40%;
+}
+
+#opiniones-usuario {
+    width: 50%;
+}
+
+.avatar-usuario {
+    width: 100%;
+    background-color: #5D263B;
+    /* #5D263B,  #d8ddde, #ceb1be,  #33658a  */
+    border-radius: 4px 0 0 4px !important;
+    border-width: 3px 3px 3px 0;
+    border-style: outset;
+    -webkit-border-image: -webkit-gradient(linear, 0 0, 100% 0, from(#596157), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-border-image: -webkit-linear-gradient(left, #596157, rgba(0, 0, 0, 0)) 1 100%;
+    -moz-border-image: -moz-linear-gradient(left, #596157, rgba(0, 0, 0, 0)) 1 100%;
+    -o-border-image: -o-linear-gradient(left, #596157, rgba(0, 0, 0, 0)) 1 100%;
+    border-image: linear-gradient(to left, #596157, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+.user-sec {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.user-sec div {
+    margin: 4px auto !important;
+    text-align: center !important;
+}
+
+.img-nombre {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.circular-user-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    background: url("../img/icons/usericon01.png") no-repeat;
+    background-size: 60px 60px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+#opiniones-usuario ol li {
+    list-style-type: none;
+}
+
+#opiniones-usuario .label_azul {
+    color: #1e90ff;
+}
+
+
+/* ESTILOS DETALLES VIAJE */
+
+.item-viaje-detalles {
+    width: 74%;
+    background-color: #FBFBFB;
+    border-radius: 0 4px 4px 0 !important;
+}
+
+.item-viaje-detalles p {
+    margin: 0 10px 5px 30px;
+}
+
+.item-viaje-detalles p img {
+    width: 20px;
+    margin-right: 8px;
+}
+
+.viaje-origen {
+    font-size: 200%;
+    text-align: center;
+    border-bottom: solid 1px grey;
+    border-bottom-width: 90%;
+}
+
+
+/* Pendiente optimizar segun orientacion de la pantalla (portrait | landscape) */
+
+@media screen and (max-width: 800px) {}
+
+
+/*#main-buscar {*/
+
+
+/*    width: 100%;*/
+
+
+/*}*/
+
+@media screen and (max-width: 560px) {}
+
+.tmImg {
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    background-size: contain;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.talign {
+    text-align: right;
+}
+
+.talignl {
+    text-align: left;
+}

@@ -1,0 +1,8 @@
+php_value include_path ".:/home/ubuntu/workspace/"
+
+#Alias registrar /home/ubuntu/workspace/registrar.php
+# Enable the rewrite engine
+# RewriteEngine On
+
+# # Redirect / to Main Page
+# RewriteRule ^/*$ %{DOCUMENT_ROOT}/w/index.php [L]

@@ -1,0 +1,114 @@
+#form-buscar {
+	background-color: #3B3264;
+	/*  #fffcf9  */
+	/*background: none;*/
+	max-width: 780px;
+	margin: 20px auto 10px;
+	padding: 10px;
+	color: #858b8e;
+	box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+}
+
+#form-buscar h2 {
+	padding-bottom: 20px;
+	margin: 10px 20px;
+	font-size: 24px;
+	color: White;
+}
+
+#form-buscar label {
+	color: White;
+}
+
+#form-buscar hr {
+	margin-top: 38px;
+	margin-bottom: 54px;
+	margin-left: 3px;
+	border: 1px solid #cccccc;
+}
+
+#form-buscar .form-group {
+	/*margin-bottom: 20px;*/
+	margin-left: 20px;
+	float: left;
+	text-align: left;
+	margin-right: 0;
+}
+
+#form-buscar #input-origen {
+	width: 40%;
+}
+
+#form-buscar #input-fecha {
+	width: 25%;
+}
+
+#form-buscar #input-hora {
+	width: 15%;
+}
+
+#form-buscar #input-btnbuscar {
+	width: 8%;
+	margin-right: 0 !important;
+	padding-right: 0 !important;
+}
+
+#form-buscar .form-control {
+	padding: 12px 20px;
+	height: auto;
+	border-radius: 2px;
+}
+
+#form-buscar .btn {
+	width: 80%;
+	margin-top: 25px;
+	display: block;
+	outline: none;
+	margin-right: 0 !important;
+}
+
+#form-buscar .btn span {
+	margin: 0;
+}
+
+.btn-msg {
+	margin: 0 5px;
+	color: white;
+	visibility: hidden;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+	#form-buscar .form-group {
+		width: 45%;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	#form-buscar .form-group,
+	.btn {
+		width: 100% !important;
+		margin-left: 0;
+	}
+	#form-buscar h2 {
+		text-align: center;
+	}
+	.btn-msg {
+		visibility: visible;
+	}
+	#form-buscar .btn span {
+		margin: 0 auto;
+	}
+	#form-buscar .btn {
+		width: 50%;
+	}
+	#input-btnbuscar {
+		margin-top: -20px;
+	}
+	#form-buscar {
+		margin-top: 30px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}

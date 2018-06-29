@@ -1,0 +1,198 @@
+#form-pubviaje {
+    background-color: #FBFBFB;
+    max-width: 800px;
+    margin: 50px auto 0;
+    padding: 20px;
+    color: #858b8e;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+#form-pubviaje .med-input {
+    width: 24% !important;
+}
+
+#form-pubviaje .sm-input {
+    width: 10% !important;
+    margin-bottom: 10px !important;
+}
+
+#form-pubviaje .sm-input select {
+    padding-left: 10px !important;
+}
+
+label {
+    display: block;
+}
+
+#form-pubviaje h2 {
+    padding-bottom: 20px;
+    margin: 10px 20px;
+    font-size: 24px;
+}
+
+#form-pubviaje hr {
+    margin-top: 38px;
+    margin-bottom: 54px;
+    margin-left: 3px;
+    border: 1px solid #cccccc;
+}
+
+#form-pubviaje .form-group {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 30%;
+    float: left;
+    text-align: left;
+}
+
+#form-pubviaje .form-control {
+    padding: 12px 20px;
+    height: auto;
+    border-radius: 2px;
+}
+
+#form-pubviaje .radio-inline {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#form-pubviaje .gender {
+    width: 30%;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#form-pubviaje .btn {
+    width: 46%;
+    margin: 20px auto 0;
+    display: block;
+    outline: none;
+}
+
+#form-pubviaje .form-group .form-text {
+    line-height: 0px;
+    margin-bottom: 0px !important;
+    margin-left: 2px;
+    position: relative;
+    /*left: 10px;*/
+    bottom: -10px;
+    display: block;
+}
+
+#form-pubviaje .left {
+    width: 30%;
+    margin-bottom: 0;
+}
+
+#form-pubviaje .right {
+    text-align: center;
+    width: 60%;
+}
+
+#res-publicacion {
+    background-color: #FBFBFB;
+    max-width: 500px;
+    margin: 30px auto 0;
+    padding: 20px;
+    color: #858b8e;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+#res-publicacion .form-group {
+    margin-bottom: 30px;
+    margin-left: 20px;
+    width: 30%;
+    float: left;
+    text-align: left;
+}
+
+#res-publicacion .left {
+    width: 30%;
+    margin-bottom: 0;
+}
+
+#res-publicacion .right {
+    text-align: center;
+    width: 60%;
+}
+
+#res-publicacion img {
+    width: 80%;
+    padding-top: 10%;
+}
+
+@media screen and (max-width: 800px) {
+    #form-pubviaje .form-group {
+        /*overflow-y: hidden !important;*/
+        width: 45%;
+    }
+    #form-pubviaje {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    #form-pubviaje .form-group {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    #form-pubviaje .med-input {
+        width: 100% !important;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    #form-pubviaje h2 {
+        text-align: center;
+    }
+    #form-pubviaje .form-group .form-text {
+        line-height: 18px !important;
+        margin-bottom: 0px !important;
+        margin-left: 2px;
+        position: relative;
+        /*left: 10px;*/
+        bottom: -4px !important;
+        display: block;
+    }
+    #form-pubviaje .sm-input {
+        width: 48% !important;
+    }
+    #form-pubviaje #input-hora {
+        margin-right: 4%;
+    }
+    #form-pubviaje #input-plazas {
+        width: 100% !important;
+    }
+    #div-msg div {
+        width: 100%;
+    }
+    #res-publicacion .form-group {
+        width: 100% !important;
+        text-align: center !important;
+        margin-left: 0 !important;
+    }
+    #res-publicacion .form-group img {
+        width: 20% !important;
+    }
+    #input-fecha .angular-date-picker {
+        margin-top: 64px !important;
+    }
+}
+
+#form-pubviaje.ng-hide-add {
+    -webkit-animation: zoomOut 0.8s;
+    -moz-animation: zoomOut 0.8s;
+    -ms-animation: zoomOut 0.8s;
+    animation: zoomOut 0.8s;
+    /*    display: block!important;*/
+}
+
+#input-fecha .angular-date-picker {
+    position: absolute !important;
+    margin-top: 44px !important;
+    z-index: 999;
+}

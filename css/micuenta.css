@@ -1,0 +1,59 @@
+/* Mis Viajes */
+
+#btn-verChp {
+    margin: 0 auto !important;
+}
+
+
+/* Pendiente optimizar segun orientacion de la pantalla (portrait | landscape) */
+
+@media screen and (max-width: 800px) {}
+
+
+/*#main-buscar {*/
+
+
+/*    width: 100%;*/
+
+
+/*}*/
+
+@media screen and (max-width: 560px) {
+    #filtros-buscar {
+        display: none;
+    }
+    #lista-viajes {
+        width: 100%;
+        padding: 10px;
+    }
+    .item-viaje-usuario {
+        width: 40%;
+    }
+    .item-viaje-detalles {
+        width: 60%;
+    }
+    .viaje-origen {
+        font-size: 120%;
+    }
+    .map {
+        width: 100px;
+        height: 400px;
+    }
+    #g-map {
+        display: none;
+    }
+}
+
+.mapBorder {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    background-size: contain;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.talign {
+    text-align: right;
+}

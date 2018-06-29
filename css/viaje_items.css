@@ -1,0 +1,158 @@
+#main-buscar {
+    margin: 0 auto;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+#lista-viajes {
+    width: 66%;
+    /*padding: 10px 0;*/
+}
+
+
+/* ESTILOS DETALLES USUARIO */
+
+.item-viaje {
+    margin-top: 10px;
+    background-color: White;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    -webkit-box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+    color: #8E8B85;
+    padding: 0;
+    border-radius: 4px !important;
+}
+
+.item-viaje-usuario {
+    width: 26%;
+    background-color: #5D263B;
+    /* #5D263B,  #d8ddde, #ceb1be,  #33658a  */
+    border-radius: 4px 0 0 4px !important;
+    border-width: 3px 3px 3px 0;
+    border-style: outset;
+    -webkit-border-image: -webkit-gradient(linear, 0 0, 100% 0, from(#596157), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-border-image: -webkit-linear-gradient(left, #596157, rgba(0, 0, 0, 0)) 1 100%;
+    -moz-border-image: -moz-linear-gradient(left, #596157, rgba(0, 0, 0, 0)) 1 100%;
+    -o-border-image: -o-linear-gradient(left, #596157, rgba(0, 0, 0, 0)) 1 100%;
+    border-image: linear-gradient(to left, #596157, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+.user-sec {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.user-sec div,
+star-rating-comp {
+    margin: 4px auto !important;
+    text-align: center !important;
+}
+
+.img-nombre {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.circular-user-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    /*background: url("../img/icons/usericon01.png") no-repeat;*/
+    background-size: 60px 60px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+
+/* ESTILOS DETALLES VIAJE */
+
+.item-viaje-detalles {
+    width: 74%;
+    background-color: #FBFBFB;
+    border-radius: 0 4px 4px 0 !important;
+}
+
+.item-viaje-detalles p {
+    margin: 0 10px 5px 30px;
+    text-decoration: none;
+}
+
+.item-viaje-detalles a {
+    text-decoration: none;
+}
+
+.item-viaje-detalles p img {
+    width: 20px;
+    margin-right: 8px;
+}
+
+.viaje-origen {
+    font-size: 200%;
+    text-align: center;
+    border-bottom: solid 1px grey;
+    border-bottom-width: 90%;
+}
+
+
+/* ESTILOS FILTROS */
+
+#filtros-buscar {
+    height: 500px;
+    width: 30%;
+    margin-top: 10px;
+    /*margin-bottom: 10px;*/
+    /*background-color: White;*/
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*justify-content: space-between;*/
+    -webkit-box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+    color: #8E8B85;
+    padding: 10px;
+    background-color: #FBFBFB;
+    border-radius: 4px;
+}
+
+
+/* Pendiente optimizar segun orientacion de la pantalla (portrait | landscape) */
+
+@media screen and (max-width: 800px) {}
+
+
+/*#main-buscar {*/
+
+
+/*    width: 100%;*/
+
+
+/*}*/
+
+@media screen and (max-width: 560px) {
+    #filtros-buscar {
+        display: none;
+    }
+    #lista-viajes {
+        width: 100%;
+        padding: 10px;
+    }
+    .item-viaje-usuario {
+        width: 40%;
+    }
+    .item-viaje-detalles {
+        width: 60%;
+    }
+    .viaje-origen {
+        font-size: 120%;
+    }
+}

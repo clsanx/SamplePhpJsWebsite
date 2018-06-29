@@ -1,0 +1,74 @@
+#form-perfil {
+    background-color: #fff;
+    max-width: 800px;
+    margin: 20px auto 0;
+    padding: 20px;
+    color: #858b8e;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+.circular-perfil-img {
+    width: 140;
+    height: 140;
+    border-radius: 71px;
+    -webkit-border-radius: 71px;
+    -moz-border-radius: 71px;
+    /*background: url("../img/usericon01.png") no-repeat;
+    */
+    background-size: contain;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.circular-perfil-img:hover {
+    filter: grayscale(100%);
+}
+
+.circular-perfil-img>p {
+    padding-top: 50%;
+    color: red;
+}
+
+#img-pointer {
+    cursor: pointer;
+}
+
+.image-upload>input {
+    display: none;
+}
+
+#icon-success {
+    color: green;
+}
+
+#not-disabled {
+    pointer: cursor;
+    /*pointer-events: none;*/
+}
+
+.texto-sobre {
+    width: 140;
+    height: 140;
+    border-radius: 71px;
+    -webkit-border-radius: 71px;
+    -moz-border-radius: 71px;
+    background-size: contain;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.texto-sobre2 {
+    display: none;
+    width: 140;
+    height: 140;
+    position: relative;
+    top: -50%;
+    color: black;
+}
+
+#img-pointer:hover>.texto-sobre2 {
+    display: block;
+}

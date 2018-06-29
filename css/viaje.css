@@ -1,0 +1,40 @@
+/* ESTILOS DETALLES VIAJE */
+
+.glyphicon {
+    color: black;
+}
+
+.glyphicon-map-marker {
+    color: red;
+}
+
+
+/* Pendiente optimizar segun orientacion de la pantalla (portrait | landscape) */
+
+@media screen and (max-width: 800px) {}
+
+
+/*#main-buscar {*/
+
+
+/*    width: 100%;*/
+
+
+/*}*/
+
+@media screen and (max-width: 560px) {}
+
+.mapBorder {
+    margin-top: 5px !important;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    background-size: contain;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.talign {
+    text-align: right;
+}

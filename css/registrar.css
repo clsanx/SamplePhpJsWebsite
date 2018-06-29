@@ -1,0 +1,169 @@
+#form-registro {
+	background-color: #fff;
+	max-width: 800px;
+	margin: 30px auto 0;
+	padding: 20px;
+	color: #858b8e;
+	box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+}
+
+#form-registro h2 {
+	padding-bottom: 20px;
+	margin: 10px 20px;
+	font-size: 24px;
+}
+
+#form-registro hr {
+	margin-top: 38px;
+	margin-bottom: 54px;
+	margin-left: 3px;
+	border: 1px solid #cccccc;
+}
+
+#form-registro .form-group {
+	margin-bottom: 30px;
+	margin-left: 20px;
+	width: 30%;
+	float: left;
+	text-align: left;
+}
+
+#form-registro .form-control {
+	padding: 12px 20px;
+	height: auto;
+	border-radius: 2px;
+}
+
+#form-registro .radio-inline {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#form-registro .gender {
+	width: 30%;
+	margin-top: 30px;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#form-registro .btn {
+	width: 46%;
+	margin: 20px auto 0;
+	display: block;
+	outline: none;
+}
+
+#form-registro .form-group .form-text {
+	line-height: 0px;
+	margin-bottom: 0px !important;
+	margin-left: 2px;
+	position: relative;
+	/*left: 10px;*/
+	bottom: -10px;
+	display: block;
+}
+
+#form-registro .left {
+	width: 30%;
+	margin-bottom: 0;
+}
+
+#form-registro .right {
+	text-align: center;
+	width: 60%;
+}
+
+#div-msg {
+	max-width: 800px;
+	padding: 20px 0;
+	width: 100%;
+	margin: 0 auto;
+}
+
+#div-msg div {
+	width: 50%;
+}
+
+@media screen and (max-width: 800px) {
+	#form-registro .form-group {
+		/*overflow-y: hidden !important;*/
+		width: 45%;
+	}
+	#form-registro {
+		margin-top: 0;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	#form-registro .form-group {
+		width: 100%;
+		margin-left: 0;
+		margin-bottom: 10px;
+	}
+	#form-registro h2 {
+		text-align: center;
+	}
+	#form-registro .form-group .form-text {
+		line-height: 18px !important;
+		margin-bottom: 0px !important;
+		margin-left: 2px;
+		position: relative;
+		/*left: 10px;*/
+		bottom: -4px !important;
+		display: block;
+	}
+	#div-msg div {
+		width: 100%;
+	}
+	#res-registro .form-group {
+		width: 100% !important;
+		text-align: center !important;
+		margin-left: 0 !important;
+	}
+	#res-registro .form-group img {
+		width: 40% !important;
+	}
+}
+
+#res-registro {
+	background-color: #FBFBFB;
+	max-width: 600px;
+	margin: 30px auto 0;
+	padding: 20px;
+	color: #858b8e;
+	box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+}
+
+#res-registro .form-group {
+	margin-bottom: 30px;
+	margin-left: 20px;
+	width: 30%;
+	float: left;
+	text-align: left;
+}
+
+#res-registro .left {
+	width: 40%;
+	margin-bottom: 0;
+}
+
+#res-registro .right {
+	text-align: center;
+	width: 50%;
+}
+
+#res-registro img {
+	width: 80%;
+	padding-top: 10%;
+}
+
+#form-registro.ng-hide-add {
+	-webkit-animation: zoomOut 0.8s;
+	-moz-animation: zoomOut 0.8s;
+	-ms-animation: zoomOut 0.8s;
+	animation: zoomOut 0.8s;
+	/*    display: block!important;*/
+}
